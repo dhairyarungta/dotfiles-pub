@@ -30,6 +30,10 @@ if [ -z "$TMUX" ]; then
     fi
 fi
 
+#git aliases 
+git config --global alias.ci commit
+git config --global alias.s status
+
 set -o vi
 set editing-mode vi
 EOF
