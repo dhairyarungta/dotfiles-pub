@@ -8,6 +8,7 @@ set -o ignoreeof
 source /usr/share/doc/fzf/examples/key-bindings.bash
 set show-mode-in-prompt on
 alias vim='nvim'
+alias cl='clear'
 
 #alias g++='g++-14 -std=c++23'
 #alias gcc='gcc-14'
