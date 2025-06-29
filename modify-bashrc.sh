@@ -32,6 +32,7 @@ fi
 
 #git aliases 
 git config --global alias.ci commit
+git config --global alias.chk checkout
 git config --global alias.s status
 
 set -o vi
