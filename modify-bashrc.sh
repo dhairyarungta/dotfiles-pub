@@ -35,6 +35,7 @@ fi
 git config --global alias.ci commit
 git config --global alias.chk checkout
 git config --global alias.s status
+git config --global core.editor "vim"
 
 set -o vi
 set editing-mode vi
